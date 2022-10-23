@@ -17,7 +17,7 @@ code {
   min-height: 100vh;
   flex-direction: column;
   text-align: center;
-  background-color:#0d2c46c4;
+  background-color:#131A28;
   color: white;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,31 @@ code {
 }
 
 .square {
-  border: 1px solid red;
-  padding: 30px;
+  min-width: 80px;
+  min-height: 80px;
+  font-size: 80px;
+  font-weight: bolder;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  color: #1CDBF5;
+  justify-content: center;
+}
+
+.b-bottom-right {
+  border-right: 10px solid #1CDBF5;
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-bottom {
+  border-bottom: 10px solid #1CDBF5;
+}
+
+.b-right {
+  border-right: 10px solid #1CDBF5;
+}
+
+.clear-button {
+  width: max-content;
+  margin: 40px auto 10px auto;
 }
